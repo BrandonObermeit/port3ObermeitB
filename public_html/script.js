@@ -6,6 +6,9 @@
 
 
 $("document").ready(function(){
-    $(".practice").css("background","orange")
+    $(".practice").css("background","purple")
     
+    $("p:first").css("color", "white");
+    
+    $("div p:last-child").css("background-color", "cyan")
 });
